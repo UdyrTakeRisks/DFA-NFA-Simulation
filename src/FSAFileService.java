@@ -41,7 +41,6 @@ public class FSAFileService {
         while ((problemInputLine = reader.readLine()) != null) {
             if (problemInputLine.equals("end"))
                 break;
-//                    RegexHelpers.problem1(problemInputLine);
             FSAController.simulateProblem1(problemInputLine);
         }
         //problem finished, so write x to output file
@@ -54,7 +53,6 @@ public class FSAFileService {
         while ((problemInputLine = reader.readLine()) != null) {
             if (problemInputLine.equals("end"))
                 break;
-//                    RegexHelpers.problem2(problemInputLine);
             FSAController.simulateProblem2(problemInputLine);
         }
         //problem finished, so write x to output file
@@ -67,7 +65,6 @@ public class FSAFileService {
         while ((problemInputLine = reader.readLine()) != null) {
             if (problemInputLine.equals("end"))
                 break;
-//                    RegexHelpers.problem3(problemInputLine);
             FSAController.simulateProblem3(problemInputLine);
         }
         //problem finished, so write x to output file
@@ -80,7 +77,6 @@ public class FSAFileService {
         while ((problemInputLine = reader.readLine()) != null) {
             if (problemInputLine.equals("end"))
                 break;
-//                    RegexHelpers.problem4(problemInputLine);
             FSAController.simulateProblem4(problemInputLine);
         }
         //problem finished, so write x to output file
@@ -93,7 +89,6 @@ public class FSAFileService {
         while ((problemInputLine = reader.readLine()) != null) {
             if (problemInputLine.equals("end"))
                 break;
-//                    RegexHelpers.problem5(problemInputLine);
             FSAController.simulateProblem5(problemInputLine);
         }
         //problem finished, so write x to output file
@@ -106,7 +101,6 @@ public class FSAFileService {
         while ((problemInputLine = reader.readLine()) != null) {
             if (problemInputLine.equals("end"))
                 break;
-//                    RegexHelpers.problem6(problemInputLine);
             FSAController.simulateProblem6(problemInputLine);
         }
         //problem finished, so write x to output file
@@ -119,7 +113,6 @@ public class FSAFileService {
         while ((problemInputLine = reader.readLine()) != null) {
             if (problemInputLine.equals("end"))
                 break;
-//                    RegexHelpers.problem7(problemInputLine);
             FSAController.simulateProblem7(problemInputLine);
         }
         //problem finished, so write x to output file
@@ -132,7 +125,6 @@ public class FSAFileService {
         while ((problemInputLine = reader.readLine()) != null) {
             if (problemInputLine.equals("end"))
                 break;
-//                    RegexHelpers.problem8(problemInputLine);
             FSAController.simulateProblem8(problemInputLine);
         }
         //problem finished, so write x to output file
@@ -145,7 +137,6 @@ public class FSAFileService {
         while ((problemInputLine = reader.readLine()) != null) {
             if (problemInputLine.equals("end"))
                 break;
-//                    RegexHelpers.problem9(problemInputLine);
             FSAController.simulateProblem9(problemInputLine);
         }
         //problem finished, so write x to output file
@@ -159,8 +150,6 @@ public class FSAFileService {
         while ((problemInputLine = reader.readLine()) != null) {
             if (problemInputLine.equalsIgnoreCase("end") || testCases > 4) //End
                 break;
-//                    RegexHelpers.problem10(problemInputLine);
-//            System.out.println("debug: " + counter++); // > 3 - there is a bug
             testCases++;
             FSAController.simulateProblem10(problemInputLine);
         }
